@@ -7,6 +7,12 @@ White: #FFF
 
 */
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
@@ -54,7 +60,7 @@ nav ul {
 
 .section1 {
     background-image: url(../images/landing.jpg);
-    background-position:50% 50%;
+    background-position: 50% 50%;
     background-size: cover;
     height: 80em;
     width: auto;
@@ -114,4 +120,12 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.section2 {
+    margin: 50px;
+}
+
+.section3 {
+    background-color: #00B172;
 }
