@@ -90,7 +90,7 @@ h1 {
     font-weight: lighter;
 }
 
-h2 {
+.section2 h2 {
     text-align: center;
     margin-top: 50px;
     font-size: 30px;
@@ -133,4 +133,42 @@ h3 {
 
 .section3 {
     background-color: #00B172;
+    color: white;
+    margin: 100px 0px;
+    padding: 50px;
+    display: flex;
+    flex-direction: flex-start;
+    height: 750px;
+    background-color: #00B172;
+    color: #fff;
+    flex-direction: column;
+}
+
+.section3 h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline white;
+    text-underline-position: under;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 42px;
+    padding-bottom: 20px;
+    
+}
+
+.ye-img {
+    width: 400px;
+    height: auto; 
+    position:absolute;
+    right: 125px;
+}
+
+.white-spotify-logo {
+    position: absolute;
+    height: 80px;
+    right: 50%;
+    align-items:center;
+    justify-content: center;
 }
